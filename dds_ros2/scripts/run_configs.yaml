@@ -1,0 +1,6 @@
+# Test config for each run. To add more test cases, append more lines following the same format.
+# Authors In alphabetical order: Cano-García J.M., Castillo-Sánchez J.B, González-Parada E.
+# copyright: University of Malaga
+# License: This program is free software, you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+runs:
+  - {other_opts: , history: 100, payload_bytes: 750, port: 2077, publisher_period_ms: 1000, use_default_reliability: true, use_default_volatibility: true, publisher_topic: "/rel", packets_to_send: 1800}
