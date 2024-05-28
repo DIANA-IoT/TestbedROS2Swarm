@@ -5,7 +5,8 @@ of a certain ROS 2 package and executable(s), with possibily varying conditions
 between them. Each node, and the instructions that are passed them, make use of SSH
 invokations.
 <br>
-Script list:
+Script list: <br>
+* `python_runs_2topics_rbe_swarm_sniffer.py`, sets a simulation with two processes and runs the capture tool (tcpdump) to sniff the wireless media.
 
 Each run is intended to be used with the configuration file `run_configs.yaml`, a YAML
 file where key-values tuples follow the same nomenclature as the run arguments as the node subject to 
