@@ -18,14 +18,12 @@ TestbedROS2Swarm
 ├── analysis_scripts
 │   ├── auxiliary
 │   ├── MATLAB
-├── docs
-│    ├── doxygen
-│    ├── examples
-│    └── images
 ├── LICENSE
 ```
 
 Note: Compiled against and tested on ROS 2 Humble Hawksbill distribution under Ubuntu Linux 22.04 LTS (x86 and aarch64).
+
+![Graphical overview of the software contained in this repository](./software.svg)
 
 ## Credits
 
