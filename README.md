@@ -6,8 +6,8 @@ This software aims to provide a reliable, reproducible and easy-to-use testbed a
 
 Related work:
 
-1. Castillo-Sánchez J.B, González-Parada E., Cano-García J.M: *A Novel Testbed for Evaluating ROS 2 Robot Swarm Wireless Communications* - 2024
-2. Castillo-Sánchez J.B, González-Parada E., Cano-García J.M: *Swarm Robots in ROS 2: An Experimental Study* - 2024
+1. Castillo-Sánchez J.B, González-Parada E., Cano-García J.M: *[A Novel Testbed for Evaluating ROS 2 Robot Swarm Wireless Communications](https://ieeexplore.ieee.org/document/10608676)* - 2024
+2. Castillo-Sánchez J.B, González-Parada E., Cano-García J.M: *[Swarm Robots in ROS 2: An Experimental Study](https://ieeexplore.ieee.org/document/10699316)* - 2024
 
 **The structure of the repository is as follows:**
 ```
