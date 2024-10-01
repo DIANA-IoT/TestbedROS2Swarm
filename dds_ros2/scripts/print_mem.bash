@@ -14,7 +14,7 @@ sleep_time=$2
 
 while true; do
 	f=$(date "+%T"); 
-	memory=$(cat /proc/meminfo | awk 'NR < 3 || NR >= 15 && NR < 17 {print}')
+	memory=$(cat /proc/meminfo | awk 'NR == 1 || NR == 3  || NR >= 15 && NR < 17 {print}')
 	(echo -n $f; echo -n " "; echo $memory) >> $log_file
 	sleep $sleep_time
 done
